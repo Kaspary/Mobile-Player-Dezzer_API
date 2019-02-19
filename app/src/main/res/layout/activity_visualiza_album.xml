@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.VisualizaAlbumActivity"
+    android:background="@color/background"
+    android:padding="30dp">
+
+
+    <TextView
+        android:id="@+id/nome_album_visualiza_album_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do Album"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+    <ImageView
+        android:id="@+id/imagem_album_visualiza_album_imageview"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/musicas_visualiza_album_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 Albuns"
+        android:layout_below="@+id/imagem_album_visualiza_album_imageview"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/duracao_visualiza_album_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="120 minutos"
+        android:textColor="@color/white"
+        android:layout_below="@+id/musicas_visualiza_album_textView"/>
+
+    <TextView
+        android:id="@+id/seguidores_visualiza_album_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2k Seguidores"
+        android:textColor="@color/white"
+        android:layout_below="@+id/duracao_visualiza_album_textView"/>
+
+    <Button
+        android:id="@+id/visualizar_musicas_visualisa_albuns_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Visualizar musicas do album"
+        android:textColor="@color/white"
+        android:background="@color/Spotlight"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"/>
+
+
+
+</RelativeLayout>

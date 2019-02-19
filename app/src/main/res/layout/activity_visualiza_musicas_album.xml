@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.VisualizaMusicasAlbumActivity"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:id="@+id/album_content_relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/nome_album_visualisa_musicas_album_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome do Album"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textSize="25dp"/>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lista_musicas_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/album_content_relativelayout">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

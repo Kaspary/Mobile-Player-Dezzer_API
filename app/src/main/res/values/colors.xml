@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#008577</color>-->
+    <!--<color name="colorPrimaryDark">#00574B</color>-->
+    <!--<color name="colorAccent">#D81B60</color>-->
+
+
+    <color name="colorPrimary">#3c4858</color>
+    <color name="colorPrimaryDark">#273444</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="background">#3c4858</color>
+    <color name="Spotlight">#273444</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+
+    <!--<color name="cinza">#595959</color>-->
+    <!--<color name="cinzaClaro">#F2F2F2</color>-->
+    <!--<color name="cinzaEscuro">#47525E</color>-->
+
+</resources>
